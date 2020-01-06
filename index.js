@@ -53,7 +53,7 @@ const App = () => {
         Loading…..
       </Text>
       <View style={styles.progressBar}>
-        <Animated.View style={[StyleSheet.absoluteFill], { backgroundColor: "#8BED4F", width }}/>
+        <Animated.View style={[StyleSheet.absoluteFill, { backgroundColor: "#8BED4F", width }]}/>
       </View>
       <Text>
         {`${progress}%`}
